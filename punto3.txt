@@ -1,0 +1,8 @@
+sueldoBase = int(input('ingrese sueldo del trabajador : '))
+ventaMes = int(input('ingrese la cantidad de ventas del mes: '))
+
+comision = ventaMes*0.15
+
+sueldoTotal = sueldoBase + comision
+
+print('el sueldo total es $ ',sueldoTotal )
