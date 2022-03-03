@@ -1,0 +1,13 @@
+personaUno = int(input('ingrese la cantidad invertidad por la persona 1: '))
+personaDos = int(input('ingrese la cantidad invertidad por la persona 2: '))
+personaTres = int(input('ingrese la cantidad invertidad por la persona 3: '))
+
+totalInversion = personaUno + personaDos + personaTres 
+
+porcentajePersonaUno = (personaUno/totalInversion)*100
+porcentajePersonaDos = (personaDos/totalInversion)*100
+porcentajePersonaTres= (personaTres/totalInversion)*100
+
+print('el porcentaje de inversion de la persona 1 es: ',porcentajePersonaUno, '%' )
+print('el porcentaje de inversion de la persona 2 es: ',porcentajePersonaDos, '%' )
+print('el porcentaje de inversion de la persona 3 es: ',porcentajePersonaTres, '%' )
