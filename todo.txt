@@ -1,0 +1,80 @@
+# punto 1
+donacion = int(input('ingrese donacion especial : '))
+
+
+administracion = donacion*0.30
+sistemas = administracion*0.25
+telecomunicaciones = sistemas*0.10
+contabilidad = donacion - (administracion + sistemas + telecomunicaciones)
+
+
+
+print('admisitracion recibirá: ',administracion)
+print('sistemas recibirá: ',sistemas)
+print('telecomunicaciones recibirá: ',telecomunicaciones)
+print('contabilidad recibirá: ',contabilidad)
+
+
+
+#punto 2
+personaUno = int(input('ingrese la cantidad invertidad por la persona 1: '))
+personaDos = int(input('ingrese la cantidad invertidad por la persona 2: '))
+personaTres = int(input('ingrese la cantidad invertidad por la persona 3: '))
+
+totalInversion = personaUno + personaDos + personaTres 
+
+porcentajePersonaUno = (personaUno/totalInversion)*100
+porcentajePersonaDos = (personaDos/totalInversion)*100
+porcentajePersonaTres= (personaTres/totalInversion)*100
+
+print('el porcentaje de inversion de la persona 1 es: ',porcentajePersonaUno, '%' )
+print('el porcentaje de inversion de la persona 2 es: ',porcentajePersonaDos, '%' )
+print('el porcentaje de inversion de la persona 3 es: ',porcentajePersonaTres, '%' )
+
+
+
+#punto3
+sueldoBase = int(input('ingrese sueldo del trabajador : '))
+ventaMes = int(input('ingrese la cantidad de ventas del mes: '))
+
+comision = ventaMes*0.15
+
+sueldoTotal = sueldoBase + comision
+
+print('el sueldo total es $ ',sueldoTotal )
+
+
+
+#punto4
+notaUno = int(input('Ingresa la calificacion 1 '))
+
+notaDos = int(input('Ingresa la calificacion 2 '))
+
+notaTres = int(input('Ingresa la calificacion 3 '))
+
+examen = int(input('Ingresa el promedio del examen final '))
+
+trabajo = int(input('Ingresa la calificacion del proyecto final '))
+
+promedio = (notaUno+notaDos+notaTres)/3
+
+promediofinal = (promedio * .50)+(examen * .30)+(trabajo * .20)
+
+print('El promedio final de la materia de fundamentos de programacion es: ',promediofinal)
+
+
+
+#punto5
+redes = int(input('ingrese la cantidad de alunmons en redes: '))
+contabilidad = int(input('ingrese la cantidad de alunmos en contabilidad: '))
+diseno = int(input('ingrese la cantidad de alunmos en diseño: '))
+
+total = redes + contabilidad + diseno 
+
+porcentajeRedes = (redes/total)*100
+porcentajeContabilidad = (contabilidad/total)*100
+porcentajeDiseno = (diseno/total)*100
+
+print('el porcentaje de estudiantes que estudian redes es: ',porcentajeRedes, '%' )
+print('el porcentaje de estudiantes que estudian contabilidad es: ',porcentajeContabilidad, '%' )
+print('el porcentaje de estudiantes que estudian redes es: ',porcentajeDiseno, '%' )

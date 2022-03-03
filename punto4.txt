@@ -1,0 +1,15 @@
+notaUno = int(input('Ingresa la calificacion 1 '))
+
+notaDos = int(input('Ingresa la calificacion 2 '))
+
+notaTres = int(input('Ingresa la calificacion 3 '))
+
+examen = int(input('Ingresa el promedio del examen final '))
+
+trabajo = int(input('Ingresa la calificacion del proyecto final '))
+
+promedio = (notaUno+notaDos+notaTres)/3
+
+promediofinal = (promedio * .50)+(examen * .30)+(trabajo * .20)
+
+print('El promedio final de la materia de fundamentos de programacion es: ',promediofinal)
