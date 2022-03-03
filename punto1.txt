@@ -1,0 +1,14 @@
+donacion = int(input('ingrese donacion especial : '))
+
+
+administracion = donacion*0.30
+sistemas = administracion*0.25
+telecomunicaciones = sistemas*0.10
+contabilidad = donacion - (administracion + sistemas + telecomunicaciones)
+
+
+
+print('admisitracion recibirá: ',administracion)
+print('sistemas recibirá: ',sistemas)
+print('telecomunicaciones recibirá: ',telecomunicaciones)
+print('contabilidad recibirá: ',contabilidad)
